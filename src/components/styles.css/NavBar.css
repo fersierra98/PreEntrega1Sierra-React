@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #fffbca;
+    color: black;
+    height: 50px;
+    padding: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+}
+
+.navbar li {
+    padding: 15px;
+    font-weight: 500;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    &:hover{
+    color: red;
+    }
+}
+
+.navbar h1 {
+    font-size: 2rem;
+}
